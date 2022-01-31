@@ -94,7 +94,7 @@ class SignUp extends StatelessWidget {
                            onTap: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => HomePage()),
+                              MaterialPageRoute(builder: (context) => const HomePage()),
                             );
                           },
                           child: const Text("Already have an account? Login",

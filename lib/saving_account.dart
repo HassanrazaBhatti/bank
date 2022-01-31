@@ -22,7 +22,7 @@ class SavingAccount extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Colors.black),
               ),
-              SizedBox(height: 20,),
+            const  SizedBox(height: 20,),
               FlatButton(
                   color: Colors.amber,
                   textColor: Colors.white,
