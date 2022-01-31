@@ -66,7 +66,7 @@ class SignIn extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => ForgetPassword()),
+                                    builder: (context) => const ForgetPassword()),
                               );
                             },
                             child: const Text(
@@ -85,7 +85,7 @@ class SignIn extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => HomePage()),
+                                    builder: (context) => const HomePage()),
                               );
                             },
                             child: const Text("Login")),
@@ -95,7 +95,7 @@ class SignIn extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => SignUp()),
+                                    builder: (context) => const SignUp()),
                               );
                             },
                             child: const Text(
